@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: ror_imdb_clone_development
+
+  # The specified database credential being used to connect to postgres.
+  username: ror_imdb_clone
+  password: ror_imdb_clone
+  host: localhost
+
+test:
+  <<: *default
+  database: RoR_IMDB_clone_test
+
+production:
+  <<: *default
+  url: <%= ENV["ROR_IMDB_CLONE_DATABASE_URL"] %>
