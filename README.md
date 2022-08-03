@@ -12,9 +12,11 @@ Test task for JetThoughts
 - [ ] Pagination of Movies on Home Page
 - [ ] Deploy an application to cloud servers like a Heroku or DigitalOcean
 - [ ] Provide test coverage for the app using RSpec or TDD
-- [ ] Use bootstrap
+- [X] Use bootstrap
 
 ### An additional task from myself to make the product better
 - [ ] Add comments available to registered users 
 - [ ] Add photos for movies
+- [ ] Add validation
 - [ ] Some more...
+

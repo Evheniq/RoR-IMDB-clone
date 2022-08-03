@@ -1,0 +1,9 @@
+<% for movie in @movies %>
+  <h1>
+    <%= movie.title %>
+  </h1>
+  <div>
+    <%= movie.body %>
+  </div>
+  <span> Rating: <%= movie.rating %></span>
+<% end %>
