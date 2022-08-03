@@ -20,4 +20,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV["ROR_IMDB_CLONE_DATABASE_URL"] %>
+  url: <%= ENV["DATABASE_URL"] %>
