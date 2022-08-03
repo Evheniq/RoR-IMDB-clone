@@ -16,4 +16,5 @@ Test task for JetThoughts
 
 ### An additional task from myself to make the product better
 - [ ] Add comments available to registered users 
+- [ ] Add photos for movies
 - [ ] Some more...
