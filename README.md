@@ -17,6 +17,6 @@ Startup
 ### An additional task to make the product better
 - [ ] Add comments available to registered users 
 - [ ] Add photos for movies
-- [ ] Add validation
+- [x] Add validation
 - [ ] Some more...
 
